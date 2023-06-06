@@ -1,0 +1,11 @@
+---
+cron: "*/2 * * * *"
+params:
+  email: hriddhi.ghosh@mykaarma.com
+  test:
+    source: git
+    type: folder
+    path: examples
+    variables:
+      username: ab@mykaarma
+      password: "@NoSoupForYou"
